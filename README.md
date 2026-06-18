@@ -1,61 +1,280 @@
 # Family Role Model Platform V4.1 Luxury Enterprise
+# Family Excellency Platform
 
-نسخة V4.1 تجمع بين فخامة واجهة V2 ومحركات V4 السبعة داخل مشروع Full Stack جاهز للرفع على GitHub.
+##
 
-## المكونات
+<div align="center">
 
-- Dark Executive Theme
-- Glassmorphism + Neon Glow
-- Animated Gradients
-- Responsive Grid System
-- KPI Widgets + Mini Sparklines
-- Interactive Charts: Trend / Radar / Donut / Bar
-- Saudi Heat Map مع مخرجات المناطق والمدن تجريبياً
-- Executive Sidebar نشط
-- Achievement Engine
-- Family Journey Tracker
-- AI Recommendations Panel / WAEE Advisor
-- Academy Integration
-- Research & Publications Hub
-- Reporting Engine + Family Digital Passport
-- FastAPI Backend تجريبي جاهز للربط بقاعدة بيانات لاحقاً
+### Family Excellency Platform
 
-## التشغيل المحلي
+**A National Framework for Measuring, Developing and Empowering Families**
 
-اضغط مرتين على:
+منصة رقمية متكاملة لقياس وتمكين وتطوير الأسر من خلال مؤشرات علمية، ولوحات بيانات تفاعلية، وتوصيات ذكية، ومسارات تطوير مستمرة.
 
-```bat
-start_fullstack.bat
+</div>
+
+---
+
+## الرؤية
+
+بناء منظومة رقمية رائدة تسهم في تعزيز جودة الحياة الأسرية وتمكين الأسر لتصبح نماذج ملهمة وقادرة على الإسهام في التنمية الوطنية المستدامة.
+
+---
+
+## الرسالة
+
+توفير أدوات علمية وتقنية متقدمة لقياس الواقع الأسري وتحليل المؤشرات وتقديم التوصيات وبرامج التطوير بما يسهم في بناء أسر أكثر تماسكاً ووعياً وتأثيراً.
+
+---
+
+# الأبعاد الرئيسية للمقياس
+
+## 1. التأصيل القيمي والنمذجة السلوكية
+
+يركز على:
+
+* غرس القيم بالممارسة.
+* القدوة الأسرية.
+* الاتساق السلوكي.
+* الحوار والإقناع.
+* القواعد الأسرية المنظمة.
+
+---
+
+## 2. التماسك الأسري والمرونة النفسية
+
+يركز على:
+
+* الحوار الأسري.
+* الاحتواء العاطفي.
+* إدارة الخلافات.
+* المرونة في الأزمات.
+* المشاركة والمسؤولية.
+
+---
+
+## 3. الأسرة في العالم الرقمي
+
+يركز على:
+
+* التربية الرقمية.
+* الاستخدام المتوازن للتقنية.
+* الأمن الرقمي.
+* الذكاء الاصطناعي للأسرة.
+* الخصوصية والثقة الرقمية.
+
+---
+
+## 4. الأثر المجتمعي وتوجهات الرؤية
+
+يركز على:
+
+* المسؤولية المجتمعية.
+* التطوع.
+* المحافظة على البيئة.
+* التنمية الوطنية.
+* المواطنة الإيجابية.
+
+---
+
+# مكونات المنصة
+
+## Executive Dashboard
+
+لوحة مؤشرات تفاعلية تشمل:
+
+* المؤشر الكلي للأسرة.
+* مؤشرات الأبعاد.
+* الرادار التحليلي.
+* التطور الزمني.
+* المقارنات المرجعية.
+* مؤشرات الأداء الرئيسية.
+
+---
+
+## Family Journey Engine
+
+رحلة تطور الأسرة:
+
+```text
+مستجدة
+↓
+واعدة
+↓
+متميزة
+↓
+قدوة
+↓
+ملهمة
 ```
 
-أو شغّل يدوياً:
+---
 
-```powershell
-cd backend
-py -3.11 -m venv .venv
-.\.venv\Scripts\activate
-python -m pip install -r requirements.txt
-python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
-```
+## AI Family Advisor
 
-وفي نافذة ثانية:
+مستشار أسري ذكي يقدم:
 
-```powershell
-cd frontend
+* التوصيات.
+* فرص التحسين.
+* الأنشطة المقترحة.
+* الخطط التطويرية.
+
+---
+
+## Academy Integration
+
+ربط نتائج القياس ببرامج تدريبية ومسارات تطويرية مناسبة لكل أسرة.
+
+---
+
+## National Benchmarking
+
+مقارنة نتائج الأسرة مع:
+
+* متوسط المنطقة.
+* متوسط المملكة.
+* الفئات العمرية.
+* المستويات التعليمية.
+
+---
+
+## Reporting Engine
+
+إصدار:
+
+* تقارير تنفيذية.
+* تقارير أسرية.
+* تقارير تحليلية.
+* تقارير مقارنة.
+
+---
+
+## Research & Knowledge Hub
+
+مكتبة علمية تشمل:
+
+* الدراسات.
+* الأدلة.
+* الأبحاث.
+* أوراق العمل.
+* أدوات القياس.
+
+---
+
+# التقنيات المستخدمة
+
+## Frontend
+
+* React
+* Vite
+* TailwindCSS
+* Recharts
+* Lucide Icons
+
+## Backend
+
+* FastAPI
+* SQLAlchemy
+* PostgreSQL
+* Pydantic
+
+## Data & Analytics
+
+* Pandas
+* OpenPyXL
+* ReportLab
+
+---
+
+# تشغيل المشروع
+
+## Frontend
+
+```bash
 npm install
-npm run dev -- --host 0.0.0.0 --port 5180
+npm run dev
 ```
 
-- Frontend: http://localhost:5180
-- API Docs: http://localhost:8000/docs
+## Backend
 
-## الرفع على GitHub
+```bash
+python -m venv .venv
 
-```powershell
-git init
-git add .
-git commit -m "Family Role Model Platform V4.1 Luxury Enterprise"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/family-role-model-platform-v4.git
-git push -u origin main
+source .venv/bin/activate
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python run.py
 ```
+
+---
+
+# البيئة التشغيلية
+
+أنشئ ملف:
+
+```env
+.env
+```
+
+مثال:
+
+```env
+DATABASE_URL=sqlite:///./family_excellency.db
+
+SECRET_KEY=change_me
+
+ACCESS_TOKEN_EXPIRE_MINUTES=1440
+```
+
+---
+
+# خارطة الطريق
+
+## V5
+
+* Saudi GIS Heat Map
+* AI Advisor المتقدم
+* التقارير الذكية
+* المؤشرات الوطنية
+
+## V6
+
+* أكاديمية الأسرة
+* الشهادات والاعتمادات
+* برامج التطوير الذكية
+
+## V7
+
+* النسخة الدولية
+* اللغة الإنجليزية
+* اللغة الفرنسية
+* اللغة التركية
+* اللغة الإندونيسية
+
+---
+
+# الشركاء المحتملون
+
+* الجامعات ومراكز البحوث.
+* الجهات الحكومية.
+* الجمعيات الأسرية.
+* المؤسسات التنموية.
+* مراكز الدراسات الاجتماعية.
+
+---
+
+# الترخيص
+
+Copyright © Family Excellency Platform
+
+All Rights Reserved.
+
+---
+
+## Developed With Vision For Stronger Families
+
+Building Family Excellence Through Data, Knowledge and Empowerment.
+
