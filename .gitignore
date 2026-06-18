@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+backend/family_role_model.db
+*.log
+.DS_Store
+Thumbs.db
